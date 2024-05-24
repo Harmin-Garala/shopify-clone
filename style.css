@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #FB6542;
+    
+    
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #FFF2D7;
+    color: #FB6542;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.order-now-design{
+    height: 25px;
+    width: 150px;
+    background-color: #FEE715;
+    color:  #101820;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+    
+}
+
+.header-w-u{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1px;
+}
+.header-w-u a{
+    margin-left: 60px;
+}
+.header-w-u img{
+    margin-left: 25px;
+}
+.navbar-header a{
+    align-content: center;   
+}
+.home{
+    display: flex;
+    align-items: center;
+    
+}
+
+.home img{
+    margin-left: 2px;
+}
+.navbar-header{
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    font-weight: bolder;
+    align-items: center;
+    
+}
+.Menu{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.Menu img{
+    margin-left: 2px;
+}
+.about{
+    display: flex;
+}
+.shop{
+    display: flex;
+}
+.shop img{
+    margin-top: 2px;
+    margin-right: 4px;
+}
+.user{
+    position: relative;
+    left: 44px;
+    
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: green;
+    padding: 2px;
+}
+.user:hover{
+    background-color:#FFF2D7;
+}
+.wallet{
+    position: relative;
+    left: 28px;
+    left: 34px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: green;
+    padding: 4px;
+}
+.wallet:hover{
+    background-color: #FFF2D7;
+}
+.contact{
+    display: flex;
+    align-items : center;
+}
+.home {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    padding-bottom: 2px;
+  }
+  
+  .home::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .home:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .Menu {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    padding-bottom: 5px;
+  }
+  
+  .Menu::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .Menu:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .about {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    padding-bottom: 2px;
+  }
+  
+  .about::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .about:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .shop {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    padding-bottom: 2px;
+  }
+  
+  .shop::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .shop:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .contact{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    padding-bottom: 2px;
+  }
+  
+  .contact::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .contact:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .menu-btn{
+    display: flex;
+    justify-content: center; 
+    
+    
+  }
+  .menu-btn1{
+    background-color:#FEE715 ;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    font-family: "Poetsen One", sans-serif;
+    
+  }
+
+  .menu-btn1:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .template{
+    height: 600px;
+    width: 100%;
+
+  }
+
+  .ON{
+    position: relative;
+    left: 8px;
+  }
+
+  
+
+  
+
+
+
+  
+
+  
